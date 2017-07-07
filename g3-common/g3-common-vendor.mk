@@ -184,8 +184,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
-
+    vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/lge/g3-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+	vendor/lge/g3-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
+	
 PRODUCT_PACKAGES += \
     libtime_genoff \
     shutdownlistener \
